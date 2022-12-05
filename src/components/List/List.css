@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+
+.lightList {
+  width: 540px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  padding-left: 24px;
+  gap: 20px;
+  /* text-decoration: line-through; */
+
+  /* color: #d1d2da; */
+
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #fff;
+}
+.darkListComplated {
+  width: 540px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  padding-left: 24px;
+  gap: 20px;
+  text-decoration: line-through;
+  text-decoration-color: #d1d2da;
+  color: #d1d2da;
+  background-color: #25273d;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.darkList {
+  width: 540px;
+  height: 64px;
+
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 24px;
+  background-color: #25273d;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  /* color: #494c6b; */
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.darkListNotComplated {
+  width: 540px;
+  height: 64px;
+
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 24px;
+  background-color: #25273d;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  color: #494c6b;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background-color: #fff;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.listText {
+  color: #494c6b;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.listText.listComplated {
+  color: #d1d2da;
+  text-decoration-color: #d1d2da;
+  text-decoration: line-through;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.listText.dark {
+  color: #c8cbe7;
+}
+.listText.listComplated.dark {
+  color: #4d5067;
+}
+.listCompText {
+  color: #d1d2da;
+  text-decoration-color: #d1d2da;
+  text-decoration: line-through;
+}
+.darkListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background-color: #25273d;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.removeImg {
+  width: 18px;
+  height: 18px;
+  margin-left: 380px;
+}
+.noRemoveImg {
+  display: none;
+}
+
+.image1 {
+  width: 100px;
+  height: 100px;
+}
+.darkText {
+  color: red;
+}
+.darkComText {
+  color: #fff;
+}
+.svgIcon {
+  stroke-width: 3;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #25273d;
+}
+
+@media screen and (max-width: 1232px) {
+  .lightList {
+    width: 450px;
+    height: 55px;
+  }
+  .darkList {
+    width: 450px;
+    height: 55px;
+  }
+
+  .removeImg {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .lightList {
+    width: 400px;
+    height: 50px;
+  }
+  .listContainer {
+    width: 400px;
+  }
+  .darkList {
+    width: 400px;
+    height: 50px;
+  }
+  .removeImg {
+    margin-left: 260px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lightList {
+    width: 360px;
+    height: 40px;
+  }
+  .listContainer {
+    width: 360px;
+  }
+  .darkList {
+    width: 360px;
+    height: 50px;
+  }
+  .removeImg {
+    margin-left: 220px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lightList {
+    width: 327px;
+    height: 48px;
+    font-size: 12px;
+  }
+  .listContainer {
+    width: 327px;
+  }
+  .darkList {
+    width: 327px;
+    height: 48px;
+    font-size: 12px;
+  }
+  .removeImg {
+    margin-left: 185px;
+  }
+}

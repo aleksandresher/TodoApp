@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 30px;
+  width: 540px;
+  height: 64px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.darkBtnContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  gap: 30px;
+  width: 540px;
+  height: 64px;
+  background-color: #25273d;
+  border-radius: 5px;
+}
+.btn {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  color: #9495a5;
+  letter-spacing: -0.19px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.darkBtn {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5b5e7e;
+  letter-spacing: -0.19px;
+  border: none;
+  background-color: #25273d;
+  cursor: pointer;
+}
+.itemsLeft {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  color: #9495a5;
+  letter-spacing: -0.19px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.darkItemsLeft {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5b5e7e;
+  letter-spacing: -0.19px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.clearBtn {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  color: #9495a5;
+  letter-spacing: -0.19px;
+  border: none;
+  background-color: #fff;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.darkClearBtn {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5b5e7e;
+  letter-spacing: -0.19px;
+  border: none;
+  background-color: #25273d;
+  margin-left: 40px;
+  cursor: pointer;
+}
+button:focus {
+  color: #3a7cfd;
+}
+
+@media screen and (max-width: 1232px) {
+  .btnContainer {
+    width: 450px;
+    height: 55px;
+  }
+  .darkBtnContainer {
+    width: 450px;
+    height: 55px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .btnContainer {
+    width: 400px;
+    height: 50px;
+  }
+  .darkBtnContainer {
+    width: 400px;
+    height: 50px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btnContainer {
+    width: 300px;
+    padding-left: 5px;
+  }
+  .darkBtnContainer {
+    width: 300px;
+    padding-left: 5px;
+  }
+  .clearBtn {
+    margin-left: 10px;
+  }
+  .darkClearBtn {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .btnContainer {
+    width: 327px;
+  }
+  .darkBtnContainer {
+    width: 327px;
+  }
+  .clearBtn {
+    margin-left: 5px;
+  }
+  .darkClearBtn {
+    margin-left: 5px;
+  }
+}

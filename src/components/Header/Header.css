@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 540px;
+  height: 48px;
+  margin-top: 70px;
+}
+.toggle {
+  width: 25px;
+  height: 25px;
+}
+.todo {
+  font-size: 40px;
+  letter-spacing: 15px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media screen and (max-width: 1232px) {
+  .header {
+    width: 450px;
+    height: 40px;
+    margin-top: 30px;
+  }
+  .todo {
+    font-size: 30px;
+  }
+  .toggle {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .todo {
+    font-size: 25px;
+  }
+  .toggle {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    width: 360px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  .todo {
+    font-size: 17px;
+  }
+  .toggle {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    margin-top: 10px;
+    width: 327px;
+    margin-top: 10px;
+  }
+  .todo {
+    font-size: 20px;
+  }
+  .toggle {
+    width: 20px;
+    height: 20px;
+  }
+}

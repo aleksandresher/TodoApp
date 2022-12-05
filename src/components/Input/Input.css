@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap");
+
+.userInput {
+  width: 540px;
+  height: 64px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  gap: 20px;
+  padding-left: 24px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.darkUserInput {
+  width: 540px;
+  height: 64px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #25273d;
+  gap: 20px;
+  padding-left: 24px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.inputField {
+  border: none;
+  width: 540px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  color: #393a4b;
+}
+.darkInputField {
+  border: none;
+  width: 540px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  color: #c8cbe7;
+  background-color: #25273d;
+}
+.inputField:focus {
+  outline: none;
+}
+.darkInputField:focus {
+  background-color: #25273d;
+  outline: none;
+}
+.img {
+  width: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 1232px) {
+  .userInput {
+    width: 450px;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .darkUserInput {
+    width: 450px;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .darkUserInput {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .userInput {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .darkUserInput {
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .userInput {
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .darkUserInput {
+    width: 327px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .userInput {
+    width: 327px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .inputField {
+    font-size: 12px;
+  }
+}
